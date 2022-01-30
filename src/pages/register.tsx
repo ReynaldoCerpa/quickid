@@ -2,6 +2,7 @@ import { Button } from "@chakra-ui/button";
 import { Input } from "@chakra-ui/input";
 import { Box, Text } from "@chakra-ui/layout";
 import Link from "next/link";
+import PasswordInput from "../components/PasswordInput";
 
 const register = () => {
   return (
@@ -11,17 +12,18 @@ const register = () => {
                     {/* <Text className="text-center test-class font-raleway text-[2.5rem]">Quickid</Text> */}
                     <Text className="text-center font-source-sans text-[2rem] mt-[.5rem] mb-[2rem]" fontWeight="semibold">Registrarse</Text>
                     <Input className="Input" placeholder="Usuario" />
-                    <Input className="Input" placeholder="Contraseña" type="password" />
-                    
+                    <PasswordInput/>
+                    <PasswordInput/>
+
                     <Box className="flex justify-between mt-[2rem] absolute bottom-0 w-[100%] items-center">
-                        <Link href="https://youtube.com">
-                            <Text color="blue.500" fontWeight="bold" className="">Iniciar sesión</Text>
+                        <Link href="/login">
+                            <Text color="blue.500" fontWeight="bold" className="cursor-pointer">Iniciar sesión</Text>
                         </Link>
                         <Button 
                         bg="#25274d"
                         color="white"
                         _hover={{bg: "#353878"}}
-                        >Iniciar sesión</Button>
+                        >Continuar</Button>
                     </Box>
                 </Box>
             </Box>

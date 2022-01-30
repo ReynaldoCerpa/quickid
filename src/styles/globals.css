@@ -6,6 +6,15 @@
 @tailwind components;
 @tailwind utilities;
 
-  .Input {
-    @apply my-[.3rem];
-  }
+@layer base{
+  
+}
+
+.Input {
+  @apply my-[.3rem];
+  @apply font-montserrat font-bold;
+}
+
+.in-group{
+  @apply flex items-center !important;
+}
