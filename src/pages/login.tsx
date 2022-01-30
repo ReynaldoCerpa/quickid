@@ -7,7 +7,7 @@ const login = () => {
     return (
         <div>
             <Text className="text-center test-class font-raleway">Quickid</Text>
-            <Text className="text-center" fontWeight="semibold">Iniciar sesión</Text>
+            <Text className="text-center font-montserrat" fontWeight="semibold">Iniciar sesión</Text>
             <Input className="" placeholder="Usuario" />
             <Input className="" placeholder="Contraseña" type="password" />
             <Link href="https://youtube.com">
