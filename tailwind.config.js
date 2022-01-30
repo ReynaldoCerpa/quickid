@@ -4,6 +4,11 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      "raleway":["Raleway","sans serif"],
+      "source":["Source+sans+Pro", "sans serif"],
+      "montserrat":["Montserrat","sans serif"],
+    },
     extend: {},
 
   },

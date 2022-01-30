@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const login = () => {
     return (
-        <section className="flex justify-center pt-[9rem] h-screen ">
+        <section className="flex justify-center pt-[9rem] h-screen font-raleway">
             <Box className="flex justify-center rounded-[9px] pt-[2rem] w-[25rem] drop-shadow-lg h-[30rem] bg-white p-[2rem]">
                 <Box className="flex flex-col relative w-[20rem]">
                     {/* <Text className="text-center test-class font-raleway text-[2.5rem]">Quickid</Text> */}
