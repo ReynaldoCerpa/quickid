@@ -2,7 +2,7 @@ import { Button } from "@chakra-ui/button";
 import { Input } from "@chakra-ui/input";
 import { Box, Text } from "@chakra-ui/layout";
 import Link from "next/link";
-//import styles from "../styles/Login.module.css"
+
 const login = () => {
     return (
         <section className="flex justify-center pt-[9rem] h-screen ">
