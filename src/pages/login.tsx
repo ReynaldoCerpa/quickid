@@ -2,13 +2,9 @@ import { Button } from "@chakra-ui/button";
 import { Input, InputGroup, InputRightElement } from "@chakra-ui/input";
 import { Box, Text } from "@chakra-ui/layout";
 import Link from "next/link";
-import { useRouter } from "next/router";
 import PasswordInput from "../components/PasswordInput";
 
 const login = () => {
-
-    
-    const router = useRouter();
 
     return (
         <section className="flex justify-center pt-[9rem] h-screen font-raleway">
