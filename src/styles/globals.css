@@ -15,6 +15,3 @@
   @apply font-montserrat font-bold;
 }
 
-.in-group{
-  @apply flex items-center !important;
-}

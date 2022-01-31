@@ -20,7 +20,7 @@ const register = () => {
                             <Text color="blue.500" fontWeight="bold" className="cursor-pointer">Iniciar sesión</Text>
                         </Link>
                         <Button 
-                        bg="#25274d"
+                        bg="#548CFF"
                         color="white"
                         _hover={{bg: "#353878"}}
                         >Continuar</Button>

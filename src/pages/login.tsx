@@ -27,11 +27,10 @@ const login = () => {
                             <Text color="blue.500" fontWeight="bold" className="cursor-pointer">Registrarse</Text>
                         </Link>
                         <Button
-                            bg="#25274d"
+                            bg="#548CFF"
                             color="white"
                             _hover={{ bg: "#353878" }}
                             onClick={()=>{
-                                console.log(router.pathname);
                                 
                             }}
                         >Iniciar sesión</Button>
